@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandeep Roy | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md py-4 px-6 md:px-12 flex justify-between items-center fixed w-full top-0 z-10">
+        <div class="text-xl font-bold text-blue-600">MR.</div>
+        <div class="space-x-6 hidden md:block">
+            <a href="#about" class="hover:text-blue-600 font-medium">About</a>
+            <a href="#skills" class="hover:text-blue-600 font-medium">Skills</a>
+            <a href="#projects" class="hover:text-blue-600 font-medium">Projects</a>
+        </div>
+        <a href="mailto:mandeep_ug_23@ei.nits.ac.in" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Contact Me</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20">
+        <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 mb-4">Mandeep Roy</h1>
+        <p class="text-xl md:text-2xl text-gray-600 mb-8">Electronics & Instrumentation Engineer | MERN Stack Developer</p>
+        <div class="flex space-x-4">
+            <a href="https://github.com/mandeeproy999999-commits" target="_blank" class="text-gray-700 hover:text-black text-3xl"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/mandeep-roy-mr999" target="_blank" class="text-gray-700 hover:text-blue-600 text-3xl"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="about" class="py-20 bg-white px-6 md:px-12">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-600">Education</h2>
+            <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+                <h3 class="text-xl font-bold">National Institute of Technology, Silchar</h3>
+                <p class="text-gray-600">B.Tech - Electronics and Instrumentation Engineering</p>
+                <div class="flex justify-between mt-2 text-sm font-medium text-gray-500">
+                    <span>CGPA: 8.28</span>
+                    <span>July 2023 – June 2027</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50 px-6 md:px-12">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-600">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="font-bold mb-2">Software Development</h3>
+                    <p class="text-gray-600">Java, C++, Python, JavaScript, TypeScript</p>
+                    <p class="text-gray-600 mt-2">Data Structures & Algorithms</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="font-bold mb-2">Web Technologies (MERN)</h3>
+                    <p class="text-gray-600">React.js, Node.js, Express.js, MongoDB, MySQL</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="font-bold mb-2">Hardware & Embedded</h3>
+                    <p class="text-gray-600">Arduino, Ultrasonic Sensors, Embedded C++</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="font-bold mb-2">Gen AI & Tools</h3>
+                    <p class="text-gray-600">Prompt Engineering, OpenAI API, Git, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white px-6 md:px-12">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center text-blue-600">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project 1 -->
+                <div class="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-2">Obstacle Avoidance System</h3>
+                    <p class="text-gray-600 mb-4">Autonomous robotic navigation system integrating Arduino Uno, ultrasonic sensors, and servo motors for safe movement.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Arduino</span>
+                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Robotics</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold mb-2">Morse Code Decoder</h3>
+                    <p class="text-gray-600 mb-4">Built a decoder using Arduino and a 16x2 LCD to convert real-time Morse signal inputs into alphanumeric text with debouncing logic.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Embedded C++</span>
+                        <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Hardware</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <p>&copy; 2026 Mandeep Roy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
